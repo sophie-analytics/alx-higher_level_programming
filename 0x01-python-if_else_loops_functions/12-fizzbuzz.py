@@ -4,7 +4,7 @@ for number in range(1, 101):
         print("Fizz ", end='')
     elif number % 5 == 0:
         print("Buzz ", end='')
-    elif (number % 3 == 0) and (number % 5) == 0:
+    elif (number % 3 == 0) and (number % 5 == 0:
         print("FizzBuzz ", end='')
     else:
         print("{:d} ".format(number), end='')
