@@ -1,0 +1,1 @@
+This documents the use of data sructures such as list, tuples in  python to solve solve some task problems
