@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def add_tuple(tuple_a=(), tuple_b=()):
     result_list = []
 
@@ -11,7 +13,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
     else:
         tuple_b = tuple_b[:2]
 
-    for value in range(2):  # Iterate over the minimum length of the two tuples (2)
+    for value in range(2):
         result_list.append(tuple_a[value] + tuple_b[value])
 
     result_tuple = tuple(result_list)
