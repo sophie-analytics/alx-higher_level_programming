@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def only_diff_elements(set_1, set_2):
     diff_items = []
     for item1 in set_1:
