@@ -3,4 +3,5 @@
     This is an empty class that defines a square
 """
 class Square:
+    """ This is the empty class """
     pass
