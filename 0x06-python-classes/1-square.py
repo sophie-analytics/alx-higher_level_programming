@@ -4,8 +4,7 @@ a private attribute """
 
 
 class Square:
-    """ object initialization """
- 
+    """ object initialization """ 
     def __init__(self, size):
         """Constructor.
         Args:
