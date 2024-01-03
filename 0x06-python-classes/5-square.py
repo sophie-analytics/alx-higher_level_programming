@@ -31,9 +31,9 @@ class Square:
     def my_print(self):
         """ print the area of the square using # """
         if self.__size == 0:
-            print(" ")
+            print("")
         else:
             for num1 in range(self.__size):
-                for num2 in range(self.size):
-                    print("#",end="")
+                for num2 in range(self.__size):
+                    print("#", end="")
                 print("")
