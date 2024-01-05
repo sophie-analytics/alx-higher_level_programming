@@ -6,13 +6,13 @@ class Rectangle:
         """ Constructor
             Args: Width: width of the rectangle
             Height: height of the rectangle"""
-        self.width = width
-        self.height = height
-    
+        self.__width = width
+        self.__height = height
+    @property
     def width(self):
         """ Gets the width of the rectangle"""
         return self.__width
-    
+    @width.setter
     def width(self, value):
         """ Sets the height of the rectangle"""
         if not isinstance(self.__width, int):
@@ -20,10 +20,10 @@ class Rectangle:
         if self.__width < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-    
+    @property
     def height(self):
         return self.__height
-    
+    @height.setter
     def height(self, value):
         """ Sets the height of the rectangle"""
         if not isinstance(self.__height, int):
