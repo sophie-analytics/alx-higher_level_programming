@@ -3,8 +3,7 @@
 
 
 class MyList(list):
-    """ Inherited or Derived class from list class"""
-    
+    """ Inherited or Derived class from list class"""  
     def print_sorted(self):
         """ function that sorts the list values(int)"""
         print(sorted(self))
