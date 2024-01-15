@@ -64,4 +64,5 @@ class Rectangle:
 
     def __repr__(self):
         """Redefines the repr function """
-        return ("{}({}, {})".format(self.__class__.__name__, self.__width, self.__height))
+        return ("{}({}, {})".
+            format(self.__class__.__name__, self.__width, self.__height))
