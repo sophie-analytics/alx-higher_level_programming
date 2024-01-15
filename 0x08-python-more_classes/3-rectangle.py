@@ -52,7 +52,6 @@ class Rectangle:
         """Redefines the str function """
         result = ""
         if self.__width == 0 or self.__height == 0:
-            result = ""
             return result
         else:
             for i in range(self.__height):
