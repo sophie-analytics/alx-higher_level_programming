@@ -8,8 +8,8 @@ class Rectangle:
         """ Constructor
             Args: Width: width of the rectangle
             Height: height of the rectangle"""
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
     @property
     def width(self):
         """ Gets the width of the rectangle"""
