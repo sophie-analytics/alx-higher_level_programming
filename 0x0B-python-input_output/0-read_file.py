@@ -4,5 +4,6 @@ def read_file(filename=""):
     """ args:
     filename: The name of the file to be read"""
     with open(filename,'r', encoding="utf-8") as f:
-        data = f.read()
-    print(data)
+        for line in f:
+            print(line, end='')
+        print(" ")
