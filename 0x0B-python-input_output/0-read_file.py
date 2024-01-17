@@ -3,7 +3,5 @@
 def read_file(filename=""):
     """ args:
     filename: The name of the file to be read"""
-    with open(filename,'r', encoding="utf-8") as f:
-        for line in f:
-            print(line, end='')
-        print(" ")
+    with open(filename, encoding="utf-8") as f:
+        print(f.read(), end="")
