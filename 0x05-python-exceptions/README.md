@@ -1,0 +1,1 @@
+This documents the use of exceptions objects in python to prevent crashing of programs and catching errors and solve some task problems.
